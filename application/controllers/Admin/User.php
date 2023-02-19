@@ -15,7 +15,7 @@ class User extends CI_Controller
 
     public function index()
     {
-        $data['title'] = 'User &mdash; E-Bukusak';
+        $data['title'] = 'User &mdash; E-Buku Saku';
         $S_UserId = [
             'user_id' => $this->session->userdata('user_id')
         ];

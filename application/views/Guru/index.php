@@ -22,6 +22,9 @@
                         <li class="nav-item">
                             <a class="nav-link" href="<?= base_url('Guru/Siswa'); ?>"><i class="fas fa-users"></i> <span>Siswa</span></a>
                         </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://drive.google.com/file/d/1a5n1pyfim3mMAVNxHrFNj7Ca0BS5eWfY/view?usp=share_link"; ?><i class="fas fa-book"></i> <span>Jadwal Piket</span></a>
+                         </li>
                     </ul>
 
                 </aside>
@@ -104,18 +107,17 @@
                                 <div class="card-header">
                                     <h4>Laporan Pelanggar Terbaru Oleh Anda</h4>
                                     <div class="card-header-action">
-                                        <a href="<?= base_url('Guru/Pelanggar') ?>" class="btn btn-warning">View All</a>
+                                        <a href="<?= base_url('Guru/Pelanggar') ?>" class="btn btn-primary">View All</a>
                                     </div>
                                 </div>
                                 <div class="card-body p-0">
                                     <?php if ($rowPelanggar == 0) : ?>
-                                        <div class="empty-state" data-height="500">
-                                            <img class="img-fluid" src="<?= base_url(''); ?>/assets/img/drawkit/drawkit-nature-man-colour.svg" alt="image">
+                                        <div class="empty-state" data-height="300">
                                             <h2 class="mt-0">Sepertinya kamu belum pernah lapor</h2>
                                             <p class="lead">
                                                 Yuk mulai lapor pelanggar sekarang agar tercatat di sistem
                                             </p>
-                                            <a href="<?= base_url('Guru/Pelanggar/tambah') ?>" class="btn btn-warning">Lapor Sekarang</a>
+                                            <a href="<?= base_url('Guru/Pelanggar/tambah') ?>" class="btn btn-primary">Lapor Sekarang</a>
                                         </div>
                                 </div>
                             </div>

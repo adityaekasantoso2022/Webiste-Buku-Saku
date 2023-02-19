@@ -23,6 +23,9 @@ date_default_timezone_set('Asia/Jakarta'); ?>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="<?= base_url('Guru/Siswa'); ?>"><i class="fas fa-users"></i> <span>Siswa</span></a>
+                </li>
+            <li class="nav-item">
+                 <a class="nav-link" href="https://drive.google.com/file/d/1a5n1pyfim3mMAVNxHrFNj7Ca0BS5eWfY/view?usp=share_link"; ?><i class="fas fa-book"></i> <span>Jadwal Piket</span></a>
             </li>
         </ul>
     </aside>

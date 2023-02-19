@@ -38,7 +38,7 @@
           <div class="d-flex flex-wrap align-items-stretch">
             <div class="col-lg-4 col-md-6 col-12 order-lg-1 min-vh-100 order-2 bg-white">
               <div class="p-4 m-3">
-              <img src="https://smktelkom-pwt.sch.id/wp-content/uploads/2019/02/logo-telkom-schools.png" alt="logo" width="80" class="shadow-light mb-5 mt-2">
+              <img src="https://smktelkom-pwt.sch.id/wp-content/uploads/2018/10/Logo-SMK-Telkom-Purwokerto.png" alt="logo" width="130" class="shadow-light mb-5 mt-2">
               <h4 class="text-dark font-weight-normal">Welcome to<span class="font-weight-bold"> E-Buku Saku</span></h4>
               <p class="text-muted">Sistem Pencatatan Aktivitas Pelanggaran Siswa</p>
           <form method="POST" action="" class="needs-validation" novalidate="">

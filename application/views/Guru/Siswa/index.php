@@ -24,6 +24,9 @@ date_default_timezone_set('Asia/Jakarta');
             </li>
             <li class="nav-item active">
                 <a class="nav-link" href="<?= base_url('Guru/Siswa'); ?>"><i class="fas fa-users"></i> <span>Siswa</span></a>
+                </li>
+            <li class="nav-item">
+                 <a class="nav-link" href="https://drive.google.com/file/d/1a5n1pyfim3mMAVNxHrFNj7Ca0BS5eWfY/view?usp=share_link"; ?><i class="fas fa-book"></i> <span>Jadwal Piket</span></a>
             </li>
         </ul>
     </aside>
@@ -42,7 +45,7 @@ date_default_timezone_set('Asia/Jakarta');
         </div>
 
         <div class="section-body">
-            <h2 class="section-title">Aturan</h2>
+            <h2 class="section-title">Daftar Peserta Didik</h2>
             <p class="section-lead">
                 Disini anda dapat Melihat, dan Mencari Data
                 Siswa
@@ -52,20 +55,6 @@ date_default_timezone_set('Asia/Jakarta');
         <div class="row">
             <div class="col-12">
                 <div class="card">
-                    <div class="card-header">
-                        <h4>Daftar Siswa</h4>
-                        <div class="card-header-form">
-                            <button type="button" class="btn btn-dark mr-2 ml-4" data-toggle="tooltip" data-placement="top" title="Point kurang dari 5">
-                            </button> Terancam
-                            <button type="button" class="btn btn-danger mr-2 ml-4" data-toggle="tooltip" data-placement="top" title="Point dari 5 sampai 49">
-                            </button> Bahaya
-                            <button type="button" class="btn btn-warning mr-2 ml-4" data-toggle="tooltip" data-placement="top" title="Point dari 50 sampai 75">
-                            </button> Peringatan
-                            <button type="button" class="btn btn-success mr-2 ml-4" data-toggle="tooltip" data-placement="top" title="Point dari 76 sampai 100">
-                            </button> Aman
-                        </div>
-                    </div>
-
                     <div class="card-body">
                         <div class="table-responsive">
                             <table class="table table-striped table-hover" id="mytable">

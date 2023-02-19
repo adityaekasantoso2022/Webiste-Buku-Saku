@@ -58,7 +58,6 @@ date_default_timezone_set('Asia/Jakarta');
                     <div class="card-header">
                         <h4>Daftar User</h4>
                         <div class="card-header-form">
-                            <a href="<?= base_url('Admin/User/tambah') ?>" class="btn btn-icon icon-left btn-warning mr-2 ml-4"><i class="fas fa-plus-circle"></i> Tambah User</a>
                             <a href=" <?= base_url('Admin/User/cetak') ?>" target="_blank" class="btn btn-icon icon-left btn-success"><i class="fas fa-print"></i> Cetak</a>
                         </div>
                     </div>

@@ -41,7 +41,7 @@
                     </div>
                 </div>
                 <div class="simple-footer mt-5">
-                    Copyright &copy; <a href="http://instagram.com/andikha.dian16">Andikha Dian Nugraha</a> <?= date('Y'); ?>
+                    Copyright &copy; <a href="http://adityaekasantoso.my.id">Aditya Eka Santoso</a> <?= date('Y'); ?>
                 </div>
             </div>
         </section>

@@ -25,6 +25,10 @@ date_default_timezone_set('Asia/Jakarta');
             <li class="nav-item">
                 <a class="nav-link" href="<?= base_url('Guru/Siswa'); ?>"><i class="fas fa-users"></i> <span>Siswa</span></a>
             </li>
+            <li class="nav-item">
+                <a class="nav-link" href="https://drive.google.com/file/d/1a5n1pyfim3mMAVNxHrFNj7Ca0BS5eWfY/view?usp=share_link"; ?><i class="fas fa-book"></i> <span>Jadwal Piket</span></a>
+            </li>
+
         </ul>
     </aside>
 </div>
@@ -42,7 +46,7 @@ date_default_timezone_set('Asia/Jakarta');
         </div>
 
         <div class="section-body">
-            <h2 class="section-title">Aturan</h2>
+            <h2 class="section-title">Informasi Pelanggaran</h2>
             <p class="section-lead">
                 Disini anda dapat Melihat, dan Mencari Data
                 Jenis Pelanggaran
@@ -52,12 +56,6 @@ date_default_timezone_set('Asia/Jakarta');
         <div class="row">
             <div class="col-12">
                 <div class="card">
-                    <div class="card-header">
-                        <h4>Daftar Jenis Pelanggaran</h4>
-                        <div class="card-header-form">
-                        </div>
-                    </div>
-
                     <div class="card-body">
                         <div class="table-responsive">
                             <table class="table table-striped table-hover" id="mytable">

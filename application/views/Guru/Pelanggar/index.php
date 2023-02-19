@@ -22,6 +22,10 @@
             <li class="nav-item">
                 <a class="nav-link" href="<?= base_url('Guru/Siswa'); ?>"><i class="fas fa-users"></i> <span>Siswa</span></a>
             </li>
+            <li class="nav-item">
+                 <a class="nav-link" href="https://drive.google.com/file/d/1a5n1pyfim3mMAVNxHrFNj7Ca0BS5eWfY/view?usp=share_link"; ?><i class="fas fa-book"></i> <span>Jadwal Piket</span></a>
+            </li>
+
         </ul>
     </aside>
 </div>
@@ -54,7 +58,7 @@
             </div>
         <?php else : ?>
             <div class="section-body">
-                <h2 class="section-title">Aturan</h2>
+                <h2 class="section-title">Daftar Pelanggaran</h2>
                 <p class="section-lead">
                     Disini anda dapat Melihat, dan Mencari
                     Pelanggar Oleh Anda
@@ -65,7 +69,7 @@
                 <div class="col-12">
                     <div class="card">
                         <div class="card-header">
-                            <h4>Daftar Pelanggar</h4>
+                            <h4></h4>
                             <div class="card-header-form">
                                 <a href="<?= base_url('Guru/Pelanggar/tambah') ?>" class="btn btn-icon icon-left btn-warning mr-2"><i class="fas fa-plus-circle"></i> Tambah Pelanggar</a>
                                 <a href="<?= base_url('Guru/Pelanggar/cetak') ?>" target="_blank" class="btn btn-icon icon-left btn-success"><i class="fas fa-print"></i> Cetak</a>
