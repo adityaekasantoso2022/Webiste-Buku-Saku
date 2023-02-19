@@ -31,12 +31,6 @@ date_default_timezone_set('Asia/Jakarta');
                 <a class="nav-link" href="<?= base_url('Admin/Siswa') ?>"><i class="fas fa-users"></i> <span>Siswa</span></a>
             </li>
         </ul>
-
-        <div class="mt-4 mb-4 p-3 hide-sidebar-mini">
-            <a href="<?= base_url('Auth/logout') ?>" class="btn btn-warning btn-lg btn-block btn-icon-split">
-                <i class="fas fa-sign-out-alt"></i> Logout
-            </a>
-        </div>
     </aside>
 </div>
 
@@ -147,7 +141,7 @@ date_default_timezone_set('Asia/Jakarta');
                                 <div class="form-group row mb-4">
                                     <label class="col-form-label text-md-right col-12 col-md-3 col-lg-3"></label>
                                     <div class="col-sm-12 col-md-7">
-                                        <button class="btn btn-warning" type="submit">Ubah</button>
+                                        <button class="btn btn-primary" type="submit">Ubah</button>
                                     </div>
                                 </div>
                             </form>

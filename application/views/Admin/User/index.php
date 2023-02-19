@@ -58,12 +58,6 @@ date_default_timezone_set('Asia/Jakarta');
                     <div class="card-header">
                         <h4>Daftar User</h4>
                         <div class="card-header-form">
-                            <button type="button" class="btn btn-danger mr-2 ml-4" data-toggle="tooltip" data-placement="top">
-                            </button> Melakukan Kesalahan
-                            <button type="button" class="btn btn-warning mr-2 ml-4" data-toggle="tooltip" data-placement="top">
-                            </button> Belum Verifikasi
-                            <button type="button" class="btn btn-success mr-2 ml-4" data-toggle="tooltip" data-placement="top">
-                            </button> Sudah Verifikasi
                             <a href="<?= base_url('Admin/User/tambah') ?>" class="btn btn-icon icon-left btn-warning mr-2 ml-4"><i class="fas fa-plus-circle"></i> Tambah User</a>
                             <a href=" <?= base_url('Admin/User/cetak') ?>" target="_blank" class="btn btn-icon icon-left btn-success"><i class="fas fa-print"></i> Cetak</a>
                         </div>

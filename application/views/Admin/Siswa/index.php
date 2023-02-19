@@ -59,10 +59,6 @@ date_default_timezone_set('Asia/Jakarta');
                     <div class="card-header">
                         <h4>Daftar Siswa</h4>
                         <div class="card-header-form">
-                            <button type="button" class="btn btn-success mr-2 ml-4" data-toggle="tooltip" data-placement="top">
-                            </button>Siswa Aktif / Point Tersedia
-                            <button type="button" class="btn btn-danger mr-2 ml-4" data-toggle="tooltip" data-placement="top">
-                            </button>Siswa Keluar / Point Habis
                             <a href="<?= base_url('Admin/Siswa/tambah') ?>" class="btn btn-icon icon-left btn-warning mr-2 ml-4"><i class="fas fa-plus-circle"></i> Tambah Siswa</a>
                             <a href="<?= base_url('Admin/Siswa/cetak') ?>" target="_blank" class="btn btn-icon icon-left btn-success"><i class="fas fa-print"></i> Cetak</a>
                         </div>

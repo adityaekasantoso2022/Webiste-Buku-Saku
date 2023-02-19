@@ -49,7 +49,6 @@ date_default_timezone_set('Asia/Jakarta'); ?>
                             </div>
                         </a>
                         <div class="dropdown-menu dropdown-menu-right">
-                            <div class="dropdown-title"><?= $lastOnline; ?></div>
                             <div class="dropdown-divider"></div>
                             <a href="<?= base_url('Auth/logout') ?>" class="btnLogout dropdown-item has-icon text-danger">
                                 <i class="fas fa-sign-out-alt"></i> Logout

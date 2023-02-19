@@ -36,7 +36,6 @@ $pdf->SetAuthor('Poin Pelanggaran Siswa');
 $pdf->SetTitle('Laporan Jenis Pelanggaran');
 
 // set default header data
-$pdf->SetHeaderData(PDF_HEADER_LOGO, PDF_HEADER_LOGO_WIDTH, PDF_HEADER_TITLE, PDF_HEADER_STRING);
 
 // set header and footer fonts
 $pdf->setHeaderFont(array(PDF_FONT_NAME_MAIN, '', PDF_FONT_SIZE_MAIN));
@@ -47,7 +46,6 @@ $pdf->SetDefaultMonospacedFont(PDF_FONT_MONOSPACED);
 
 // set margins
 $pdf->SetMargins(PDF_MARGIN_LEFT, PDF_MARGIN_TOP, PDF_MARGIN_RIGHT);
-$pdf->SetHeaderMargin(PDF_MARGIN_HEADER);
 $pdf->SetFooterMargin(PDF_MARGIN_FOOTER);
 
 // set auto page breaks
@@ -83,13 +81,13 @@ $pdf->SetFillColor(255, 255, 127);
 
 // set some text for example
 $title = <<<EOD
-<h3>Laporan Jenis Pelanggaran </h3>
+<h3>Daftar Poin Pelanggaran <br> SMK Telkom Purwokerto </h3>
 EOD;
 $pdf->writeHTMLCell(0, 0, '', '', $title, 0, 1, 0, true, 'C', true);
 $table = '<table style="border: 1px solid #000; padding:6px;">';
 $table .= '<tr style="background-color: #ccc;">
                 <th border="1" width="5%">No</th>
-                <th border="1" align="left" width="85%">Jenis Pelanggaran</th>
+                <th border="1" align="center" width="85%">Jenis Pelanggaran</th>
                 <th border="1" align="center" width="10%">Point</th>
             </tr>';
 $i = 1;
@@ -109,16 +107,18 @@ $timeDate = date('d');
 $timeMonth = date('F ');
 $timeYear = date('Y');
 $date = <<<EOD
-<h4>$timeDay, $timeDate $timeMonth $timeYear</h4>
+<h4>Purwokerto, $timeDate $timeMonth $timeYear</h4>
+<h4>Kepala Sekolah</h4>
+
 EOD;
 $pdf->writeHTMLCell(0, 0, 0, 230, $date, 0, 1, FALSE, TRUE, 'R', TRUE);
 
-$name = "<h4>Daud Martupa Sitinjak <br> (Wakil Kesiswaaan)</h4>";
-$pdf->writeHTMLCell(0, 0, 150, 260, $name, 0, 1, 0, true, 'C', true);
+$name = "<h4>Wiwid Widiyantoro S.Si,M.Pd</h4>";
+$pdf->writeHTMLCell(0, 0, 140, 260, $name, 0, 1, 0, true, 'C', true);
 // ---------------------------------------------------------
 ob_clean();
 //Close and output PDF document
-$pdf->Output('laporan_jenis_pelanggaran.pdf', 'I');
+$pdf->Output('laporan_user.pdf', 'I');
 
 //============================================================+
 // END OF FILE
